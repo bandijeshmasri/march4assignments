@@ -1,0 +1,13 @@
+l=[]
+n=int(input('enter no. of values:'))
+c=0
+for i in range(n):
+    x=int(input())
+    l.append(x)
+res=[]
+for i in l:
+    if i not in res:
+        res.append(i)
+    else:
+        c=c+1
+print(c)
